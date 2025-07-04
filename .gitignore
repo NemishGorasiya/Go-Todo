@@ -1,0 +1,49 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+/dist
+/build
+/bin
+/_debug_bin*
+
+# Go modules & cache (do not ignore go.mod or go.sum)
+vendor/
+*.mod
+*.sum
+
+# Dependency directories (if you use vendoring)
+vendor/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debug
+*.log
+*.trace
+*.prof
+*.coverprofile
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Swagger auto-generated docs
+/docs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
