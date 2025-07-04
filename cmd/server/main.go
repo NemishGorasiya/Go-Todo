@@ -7,8 +7,6 @@
 package main
 
 import (
-	_ "github.com/NemishGorasiya/Go-Todo/docs"
-
 	"log"
 	"net/http"
 
